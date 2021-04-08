@@ -1,0 +1,5 @@
+name: Team awesome's approval workflowAAA
+on: pull_request_review
+jobs:
+  labelWhenApproved:
+    runs-on: ubuntu-latest
